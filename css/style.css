@@ -8,6 +8,9 @@
 a:hover {
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 /* Promo section */
 .promo {
     min-height: 750px;
@@ -29,9 +32,40 @@ a:hover {
     line-height: 15px;
     text-transform: uppercase;
     color: #ffffff;
-   
-    
-}
+}   
 .logo__text > span {
     font-weight: 700;
+}
+.nav {
+    display: flex;
+    align-items:center;
+}
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav__item:hover {
+    opacity: 1;
+}
+.nav__item {
+    margin: 0 25px;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+}
+.nav__item > a {
+    font-weight: 600;
+    color: #ffffff;
+}
+.promo__sign button {
+    padding: 6px 20px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.promo__sign button :focus{
+    outline: none;
 }
