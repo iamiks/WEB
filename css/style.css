@@ -1,0 +1,37 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.conteiner {
+    padding: 0 80px;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Promo section */
+.promo {
+    min-height: 750px;
+    background: url(../img/bg/rectangle_1_copy_2_16.jpg) center center/cover no-repeat;
+    padding: 50px 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo__wrap {
+    display: flex;
+    align-items: center;
+}
+.logo__img {
+    margin-right: 10px;
+}
+.logo__text {
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+   
+    
+}
+.logo__text > span {
+    font-weight: 700;
+}
