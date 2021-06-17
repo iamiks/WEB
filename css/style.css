@@ -238,4 +238,63 @@ button:focus {
 .usful__btn:hover {
     background-color: #067559;
 }
+/* progress section */
+.progress {
+    display:flex;
+}
+.progress_item {
+    width: 25%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress_item_business {
+    background-color: #80d8ff;
+}
+.progress_item_business i {
+    color: #80d8ff;
+}
+.progress_item_download {
+    background-color: #82b1ff;
+}
+.progress_item_download i {
+    color: #82b1ff;
+}
+.progress_item_installs {
+    background-color: #b388ff;
+}
+.progress_item_installs {
+    color: #b388ff;
+}
+.progress_item_users {
+    background-color: #ea80fc;
+}
+.progress_item_users i {
+    color: #ea80fc;
+}
+.progress_wrap {
+    display: flex;
+    align-items: center;
+}
+.progress_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    margin-right: 23px;
+}
+.progress_icon i {
+    font-size: 30px;
+}
+.progress_text {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
 
